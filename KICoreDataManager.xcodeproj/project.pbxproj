@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DDAD221BDDAC7700E04AD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDAD211BDDAC7700E04AD6 /* main.m */; };
+		18DDAD251BDDAC7700E04AD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDAD241BDDAC7700E04AD6 /* AppDelegate.m */; };
+		18DDAD281BDDAC7700E04AD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDAD271BDDAC7700E04AD6 /* ViewController.m */; };
+		18DDAD2B1BDDAC7700E04AD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DDAD291BDDAC7700E04AD6 /* Main.storyboard */; };
+		18DDAD2D1BDDAC7700E04AD6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DDAD2C1BDDAC7700E04AD6 /* Images.xcassets */; };
+		18DDAD301BDDAC7700E04AD6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DDAD2E1BDDAC7700E04AD6 /* LaunchScreen.xib */; };
+		18DDAD3C1BDDAC7700E04AD6 /* KICoreDataManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDAD3B1BDDAC7700E04AD6 /* KICoreDataManagerTests.m */; };
+		18DDAD4E1BDDAC9B00E04AD6 /* KICoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDAD471BDDAC9B00E04AD6 /* KICoreDataManager.m */; };
+		18DDAD4F1BDDAC9B00E04AD6 /* KIFetchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDAD491BDDAC9B00E04AD6 /* KIFetchRequest.m */; };
+		18DDAD501BDDAC9B00E04AD6 /* NSManagedObject+KIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDAD4B1BDDAC9B00E04AD6 /* NSManagedObject+KIAdditions.m */; };
+		18DDAD511BDDAC9B00E04AD6 /* NSManagedObjectContext+KIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDAD4D1BDDAC9B00E04AD6 /* NSManagedObjectContext+KIAdditions.m */; };
+		18DDAD5B1BDDACBF00E04AD6 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDAD531BDDACBF00E04AD6 /* BaseTableViewController.m */; };
+		18DDAD5C1BDDACBF00E04AD6 /* KICoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDAD561BDDACBF00E04AD6 /* KICoreDataViewController.m */; };
+		18DDAD5D1BDDACBF00E04AD6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18DDAD571BDDACBF00E04AD6 /* Model.xcdatamodeld */; };
+		18DDAD5E1BDDACBF00E04AD6 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDAD5A1BDDACBF00E04AD6 /* User.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18DDAD361BDDAC7700E04AD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DDAD141BDDAC7700E04AD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DDAD1B1BDDAC7700E04AD6;
+			remoteInfo = KICoreDataManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18DDAD1C1BDDAC7700E04AD6 /* KICoreDataManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KICoreDataManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DDAD201BDDAC7700E04AD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DDAD211BDDAC7700E04AD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18DDAD231BDDAC7700E04AD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18DDAD241BDDAC7700E04AD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18DDAD261BDDAC7700E04AD6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18DDAD271BDDAC7700E04AD6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18DDAD2A1BDDAC7700E04AD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18DDAD2C1BDDAC7700E04AD6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18DDAD2F1BDDAC7700E04AD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18DDAD351BDDAC7700E04AD6 /* KICoreDataManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KICoreDataManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DDAD3A1BDDAC7700E04AD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DDAD3B1BDDAC7700E04AD6 /* KICoreDataManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KICoreDataManagerTests.m; sourceTree = "<group>"; };
+		18DDAD461BDDAC9B00E04AD6 /* KICoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KICoreDataManager.h; sourceTree = "<group>"; };
+		18DDAD471BDDAC9B00E04AD6 /* KICoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KICoreDataManager.m; sourceTree = "<group>"; };
+		18DDAD481BDDAC9B00E04AD6 /* KIFetchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIFetchRequest.h; sourceTree = "<group>"; };
+		18DDAD491BDDAC9B00E04AD6 /* KIFetchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIFetchRequest.m; sourceTree = "<group>"; };
+		18DDAD4A1BDDAC9B00E04AD6 /* NSManagedObject+KIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+KIAdditions.h"; sourceTree = "<group>"; };
+		18DDAD4B1BDDAC9B00E04AD6 /* NSManagedObject+KIAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+KIAdditions.m"; sourceTree = "<group>"; };
+		18DDAD4C1BDDAC9B00E04AD6 /* NSManagedObjectContext+KIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+KIAdditions.h"; sourceTree = "<group>"; };
+		18DDAD4D1BDDAC9B00E04AD6 /* NSManagedObjectContext+KIAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+KIAdditions.m"; sourceTree = "<group>"; };
+		18DDAD521BDDACBF00E04AD6 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		18DDAD531BDDACBF00E04AD6 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		18DDAD551BDDACBF00E04AD6 /* KICoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KICoreDataViewController.h; sourceTree = "<group>"; };
+		18DDAD561BDDACBF00E04AD6 /* KICoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KICoreDataViewController.m; sourceTree = "<group>"; };
+		18DDAD581BDDACBF00E04AD6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		18DDAD591BDDACBF00E04AD6 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		18DDAD5A1BDDACBF00E04AD6 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DDAD191BDDAC7700E04AD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DDAD321BDDAC7700E04AD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18DDAD131BDDAC7700E04AD6 = {
+			isa = PBXGroup;
+			children = (
+				18DDAD1E1BDDAC7700E04AD6 /* KICoreDataManager */,
+				18DDAD381BDDAC7700E04AD6 /* KICoreDataManagerTests */,
+				18DDAD1D1BDDAC7700E04AD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18DDAD1D1BDDAC7700E04AD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DDAD1C1BDDAC7700E04AD6 /* KICoreDataManager.app */,
+				18DDAD351BDDAC7700E04AD6 /* KICoreDataManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DDAD1E1BDDAC7700E04AD6 /* KICoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				18DDAD451BDDAC9B00E04AD6 /* KICoreDataManager */,
+				18DDAD541BDDACBF00E04AD6 /* CoreData */,
+				18DDAD521BDDACBF00E04AD6 /* BaseTableViewController.h */,
+				18DDAD531BDDACBF00E04AD6 /* BaseTableViewController.m */,
+				18DDAD231BDDAC7700E04AD6 /* AppDelegate.h */,
+				18DDAD241BDDAC7700E04AD6 /* AppDelegate.m */,
+				18DDAD261BDDAC7700E04AD6 /* ViewController.h */,
+				18DDAD271BDDAC7700E04AD6 /* ViewController.m */,
+				18DDAD291BDDAC7700E04AD6 /* Main.storyboard */,
+				18DDAD2C1BDDAC7700E04AD6 /* Images.xcassets */,
+				18DDAD2E1BDDAC7700E04AD6 /* LaunchScreen.xib */,
+				18DDAD1F1BDDAC7700E04AD6 /* Supporting Files */,
+			);
+			path = KICoreDataManager;
+			sourceTree = "<group>";
+		};
+		18DDAD1F1BDDAC7700E04AD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18DDAD201BDDAC7700E04AD6 /* Info.plist */,
+				18DDAD211BDDAC7700E04AD6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18DDAD381BDDAC7700E04AD6 /* KICoreDataManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				18DDAD3B1BDDAC7700E04AD6 /* KICoreDataManagerTests.m */,
+				18DDAD391BDDAC7700E04AD6 /* Supporting Files */,
+			);
+			path = KICoreDataManagerTests;
+			sourceTree = "<group>";
+		};
+		18DDAD391BDDAC7700E04AD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18DDAD3A1BDDAC7700E04AD6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18DDAD451BDDAC9B00E04AD6 /* KICoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				18DDAD461BDDAC9B00E04AD6 /* KICoreDataManager.h */,
+				18DDAD471BDDAC9B00E04AD6 /* KICoreDataManager.m */,
+				18DDAD481BDDAC9B00E04AD6 /* KIFetchRequest.h */,
+				18DDAD491BDDAC9B00E04AD6 /* KIFetchRequest.m */,
+				18DDAD4A1BDDAC9B00E04AD6 /* NSManagedObject+KIAdditions.h */,
+				18DDAD4B1BDDAC9B00E04AD6 /* NSManagedObject+KIAdditions.m */,
+				18DDAD4C1BDDAC9B00E04AD6 /* NSManagedObjectContext+KIAdditions.h */,
+				18DDAD4D1BDDAC9B00E04AD6 /* NSManagedObjectContext+KIAdditions.m */,
+			);
+			path = KICoreDataManager;
+			sourceTree = "<group>";
+		};
+		18DDAD541BDDACBF00E04AD6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				18DDAD551BDDACBF00E04AD6 /* KICoreDataViewController.h */,
+				18DDAD561BDDACBF00E04AD6 /* KICoreDataViewController.m */,
+				18DDAD571BDDACBF00E04AD6 /* Model.xcdatamodeld */,
+				18DDAD591BDDACBF00E04AD6 /* User.h */,
+				18DDAD5A1BDDACBF00E04AD6 /* User.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DDAD1B1BDDAC7700E04AD6 /* KICoreDataManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DDAD3F1BDDAC7700E04AD6 /* Build configuration list for PBXNativeTarget "KICoreDataManager" */;
+			buildPhases = (
+				18DDAD181BDDAC7700E04AD6 /* Sources */,
+				18DDAD191BDDAC7700E04AD6 /* Frameworks */,
+				18DDAD1A1BDDAC7700E04AD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KICoreDataManager;
+			productName = KICoreDataManager;
+			productReference = 18DDAD1C1BDDAC7700E04AD6 /* KICoreDataManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18DDAD341BDDAC7700E04AD6 /* KICoreDataManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DDAD421BDDAC7700E04AD6 /* Build configuration list for PBXNativeTarget "KICoreDataManagerTests" */;
+			buildPhases = (
+				18DDAD311BDDAC7700E04AD6 /* Sources */,
+				18DDAD321BDDAC7700E04AD6 /* Frameworks */,
+				18DDAD331BDDAC7700E04AD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DDAD371BDDAC7700E04AD6 /* PBXTargetDependency */,
+			);
+			name = KICoreDataManagerTests;
+			productName = KICoreDataManagerTests;
+			productReference = 18DDAD351BDDAC7700E04AD6 /* KICoreDataManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DDAD141BDDAC7700E04AD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = smartwalle;
+				TargetAttributes = {
+					18DDAD1B1BDDAC7700E04AD6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					18DDAD341BDDAC7700E04AD6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 18DDAD1B1BDDAC7700E04AD6;
+					};
+				};
+			};
+			buildConfigurationList = 18DDAD171BDDAC7700E04AD6 /* Build configuration list for PBXProject "KICoreDataManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18DDAD131BDDAC7700E04AD6;
+			productRefGroup = 18DDAD1D1BDDAC7700E04AD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DDAD1B1BDDAC7700E04AD6 /* KICoreDataManager */,
+				18DDAD341BDDAC7700E04AD6 /* KICoreDataManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DDAD1A1BDDAC7700E04AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DDAD2B1BDDAC7700E04AD6 /* Main.storyboard in Resources */,
+				18DDAD301BDDAC7700E04AD6 /* LaunchScreen.xib in Resources */,
+				18DDAD2D1BDDAC7700E04AD6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DDAD331BDDAC7700E04AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DDAD181BDDAC7700E04AD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DDAD4E1BDDAC9B00E04AD6 /* KICoreDataManager.m in Sources */,
+				18DDAD501BDDAC9B00E04AD6 /* NSManagedObject+KIAdditions.m in Sources */,
+				18DDAD5C1BDDACBF00E04AD6 /* KICoreDataViewController.m in Sources */,
+				18DDAD281BDDAC7700E04AD6 /* ViewController.m in Sources */,
+				18DDAD251BDDAC7700E04AD6 /* AppDelegate.m in Sources */,
+				18DDAD511BDDAC9B00E04AD6 /* NSManagedObjectContext+KIAdditions.m in Sources */,
+				18DDAD5E1BDDACBF00E04AD6 /* User.m in Sources */,
+				18DDAD221BDDAC7700E04AD6 /* main.m in Sources */,
+				18DDAD5D1BDDACBF00E04AD6 /* Model.xcdatamodeld in Sources */,
+				18DDAD5B1BDDACBF00E04AD6 /* BaseTableViewController.m in Sources */,
+				18DDAD4F1BDDAC9B00E04AD6 /* KIFetchRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DDAD311BDDAC7700E04AD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DDAD3C1BDDAC7700E04AD6 /* KICoreDataManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18DDAD371BDDAC7700E04AD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DDAD1B1BDDAC7700E04AD6 /* KICoreDataManager */;
+			targetProxy = 18DDAD361BDDAC7700E04AD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18DDAD291BDDAC7700E04AD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DDAD2A1BDDAC7700E04AD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18DDAD2E1BDDAC7700E04AD6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DDAD2F1BDDAC7700E04AD6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DDAD3D1BDDAC7700E04AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18DDAD3E1BDDAC7700E04AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18DDAD401BDDAC7700E04AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KICoreDataManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18DDAD411BDDAC7700E04AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KICoreDataManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18DDAD431BDDAC7700E04AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KICoreDataManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KICoreDataManager.app/KICoreDataManager";
+			};
+			name = Debug;
+		};
+		18DDAD441BDDAC7700E04AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KICoreDataManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KICoreDataManager.app/KICoreDataManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DDAD171BDDAC7700E04AD6 /* Build configuration list for PBXProject "KICoreDataManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DDAD3D1BDDAC7700E04AD6 /* Debug */,
+				18DDAD3E1BDDAC7700E04AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DDAD3F1BDDAC7700E04AD6 /* Build configuration list for PBXNativeTarget "KICoreDataManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DDAD401BDDAC7700E04AD6 /* Debug */,
+				18DDAD411BDDAC7700E04AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18DDAD421BDDAC7700E04AD6 /* Build configuration list for PBXNativeTarget "KICoreDataManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DDAD431BDDAC7700E04AD6 /* Debug */,
+				18DDAD441BDDAC7700E04AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18DDAD571BDDACBF00E04AD6 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18DDAD581BDDACBF00E04AD6 /* Model.xcdatamodel */,
+			);
+			currentVersion = 18DDAD581BDDACBF00E04AD6 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18DDAD141BDDAC7700E04AD6 /* Project object */;
+}
