@@ -32,3 +32,7 @@ user.name = ...
 
 
 详见Sample Code
+
+Pods
+	
+	pod 'KICoreDataManager', :git => "https://github.com/smartwalle/KICoreDataManager.git", :tag => '0.1'
