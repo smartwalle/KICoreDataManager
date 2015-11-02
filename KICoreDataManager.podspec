@@ -144,7 +144,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.framework  = "CoreData.framework"
+  s.framework  = "CoreData"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
