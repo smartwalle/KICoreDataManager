@@ -35,4 +35,8 @@ user.name = ...
 
 Pods
 	
+<<<<<<< HEAD
 	pod 'KICoreDataManager'
+=======
+	pod 'KICoreDataManager', :git => "https://github.com/smartwalle/KICoreDataManager.git"
+>>>>>>> ed73daaf4bc5a83d5c66eaa63202a53ce1f712dc

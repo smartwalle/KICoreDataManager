@@ -138,7 +138,7 @@ static KICoreDataManager *KI_CORE_DATA_MANAGER;
 #endif
         } else {
 #if DEBUG
-            NSLog(@"连接数据库出错：%d - %@", [error code], [error userInfo]);
+            NSLog(@"连接数据库出错：%ld - %@", [error code], [error userInfo]);
 #endif
             if (error.code == 134130 || error.code == 134140) {
                 //Can't find model for source store

@@ -43,11 +43,11 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/smartwalle/KICoreDataManager"
   s.license      = "MIT"
-  s.author             = { "SmartWalle" => "smartwalle@gmail.com" }
+  s.author       = { "SmartWalle" => "smartwalle@gmail.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/smartwalle/KICoreDataManager.git", :tag => "#{s.version}" }
   s.source_files  = "KICoreDataManager/KICoreDataManager/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
-  s.framework  = "CoreData"
-  s.requires_arc = true
+  s.framework     = "CoreData"
+  s.requires_arc  = true
 end
